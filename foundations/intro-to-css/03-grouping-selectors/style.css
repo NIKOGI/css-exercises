@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.misc
+{
+    background-color: black;
+    color: rgb( 256, 256, 256);
+}
+
+.background{
+    background-color: yellow;
+}
+
+.misc,.background{
+    font-size: 28px;
+    font-family: Helvetica,'Times New Roman', sans-serif;
+}
