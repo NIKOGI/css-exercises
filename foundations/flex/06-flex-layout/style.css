@@ -1,26 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+  display: flex;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+  margin-bottom: 10px;
+  
+
 }
 
 button {
+ 
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  margin-top: 10px;
 }
 
 input {
+  display: flex;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
 }
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(189, 189, 189);
+  margin-top: auto;
+  padding: 6px;
+ 
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 6px;  
+ 
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  flex: 1;
+}
+
+.right-links,
+.left-links{
+  display: flex;
+  gap: 8px;
+  padding: 0px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
+The header and footer have padding.
+The links in the header and footer are pushed to either side.
+There is space between the links in the header and footer.
+The footer has a light gray background (#eeeeee).
+The logo, input and buttons are centered in the screen.
+The buttons have an appropriate amount of padding.
+There is space between the logo, input and buttons. 
